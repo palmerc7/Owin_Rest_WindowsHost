@@ -113,9 +113,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CardAuthorizationController.cs" />
     <Compile Include="Controllers\CashDrawerController.cs" />
+    <Compile Include="Controllers\CustomerDisplayController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ReceiptPrinterController.cs" />
+    <Compile Include="Controllers\TransactionController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceRegistry.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup />
