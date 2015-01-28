@@ -123,7 +123,12 @@
     <Compile Include="ServiceRegistry.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Owin.POC.Data\Owin.POC.Data.csproj">
+      <Project>{70a331e2-563d-4a2b-aa0e-7c0f31305229}</Project>
+      <Name>Owin.POC.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
